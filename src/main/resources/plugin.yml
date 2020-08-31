@@ -1,0 +1,12 @@
+name: StayUp
+version: 1
+api-version: 1.13
+main: io.github.bluelhf.stayup.StayUp
+depend: [WorldGuard]
+
+commands:
+  stayup:
+    permission: stayup.admin
+    permission-message: §cYou are not allowed to use this command!
+    description: The main command for StayUp
+    aliases: [su, sup]
