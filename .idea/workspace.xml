@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="81d02287-79e7-4d6e-b593-3f289a10e1e2" name="Default Changelist" comment="" />
+    <list default="true" id="81d02287-79e7-4d6e-b593-3f289a10e1e2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/bluelhf/stayup/StayUp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/bluelhf/stayup/StayUp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/io/github/bluelhf/stayup/command/StayUpCommand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/io/github/bluelhf/stayup/command/StayUpCommand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/config.yml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,6 +23,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -25,6 +34,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1bGCZzYDxuwDqsVM6nZHLaqQJ8V" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -32,6 +42,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="TERMINAL_CUSTOM_COMMANDS_GOT_IT" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
@@ -65,7 +76,7 @@
       <workItem from="1598731455010" duration="3382000" />
       <workItem from="1598739086294" duration="3179000" />
       <workItem from="1598763723111" duration="19000" />
-      <workItem from="1598894923945" duration="2313000" />
+      <workItem from="1598894923945" duration="3875000" />
     </task>
     <servers />
   </component>
@@ -78,21 +89,33 @@
     </state>
     <state x="574" y="120" key="#com.intellij.ide.util.MemberChooser/0.0.1536.824@0.0.1536.824" timestamp="1598742264340" />
     <state x="718" y="145" key="#com.intellij.ide.util.MemberChooser/0.0.1920.999@0.0.1920.999" timestamp="1598896476235" />
-    <state width="1495" height="211" key="GridCell.Tab.0.bottom" timestamp="1598742116787">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="838" y="397" key="Github.ShareDialog" timestamp="1598897253740">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="838" y="397" key="Github.ShareDialog/0.0.1920.999@0.0.1920.999" timestamp="1598897253740" />
+    <state x="773" y="197" key="Github.UntrackedFilesDialog" timestamp="1598897260303">
+      <screen x="0" y="0" width="1920" height="999" />
+    </state>
+    <state x="773" y="197" key="Github.UntrackedFilesDialog/0.0.1920.999@0.0.1920.999" timestamp="1598897260303" />
+    <state width="938" height="268" key="GridCell.Tab.0.bottom" timestamp="1598898237951">
+      <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="1495" height="211" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1598742116787" />
-    <state width="1495" height="211" key="GridCell.Tab.0.center" timestamp="1598742116785">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="938" height="268" key="GridCell.Tab.0.bottom/0.0.1920.999@0.0.1920.999" timestamp="1598898237951" />
+    <state width="938" height="268" key="GridCell.Tab.0.center" timestamp="1598898237951">
+      <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="1495" height="211" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1598742116785" />
-    <state width="1495" height="211" key="GridCell.Tab.0.left" timestamp="1598742116784">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="938" height="268" key="GridCell.Tab.0.center/0.0.1920.999@0.0.1920.999" timestamp="1598898237951" />
+    <state width="938" height="268" key="GridCell.Tab.0.left" timestamp="1598898237951">
+      <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="1495" height="211" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1598742116784" />
-    <state width="1495" height="211" key="GridCell.Tab.0.right" timestamp="1598742116786">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="938" height="268" key="GridCell.Tab.0.left/0.0.1920.999@0.0.1920.999" timestamp="1598898237951" />
+    <state width="938" height="268" key="GridCell.Tab.0.right" timestamp="1598898237951">
+      <screen x="0" y="0" width="1920" height="999" />
     </state>
     <state width="1495" height="211" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1598742116786" />
+    <state width="938" height="268" key="GridCell.Tab.0.right/0.0.1920.999@0.0.1920.999" timestamp="1598898237951" />
   </component>
 </project>

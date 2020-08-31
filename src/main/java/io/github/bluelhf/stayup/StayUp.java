@@ -9,6 +9,7 @@ import com.sk89q.worldguard.protection.flags.registry.FlagConflictException;
 import com.sk89q.worldguard.protection.flags.registry.FlagRegistry;
 import com.sk89q.worldguard.protection.regions.RegionContainer;
 import com.sk89q.worldguard.protection.regions.RegionQuery;
+import io.github.bluelhf.stayup.command.StayUpCommand;
 import org.bukkit.Bukkit;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.Player;
@@ -20,6 +21,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 import org.bukkit.scheduler.BukkitRunnable;
 import org.bukkit.scheduler.BukkitTask;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.concurrent.LinkedBlockingQueue;
 
@@ -46,6 +48,11 @@ public class StayUp extends JavaPlugin implements Listener {
     @Override
     public void onEnable() {
         Bukkit.getPluginManager().registerEvents(this, this);
+        getCommand("stayup").setExecutor(new StayUpCommand());
+        if (!(new File(getDataFolder(), "config.yml")).exists()) {
+            getDataFolder().mkdirs();
+            saveDefaultConfig();
+        }
         reloadConfig();
         loadGhostBlockTask();
     }
@@ -63,11 +70,11 @@ public class StayUp extends JavaPlugin implements Listener {
         // Start polling ghost block queue
         ghostBlockTask = new BukkitRunnable() {@Override public void run() {
             pollGhostBlocks();
-        }}.runTaskTimer(this, 0, getConfig().getInt("ghost-block-rate"));
+        }}.runTaskTimer(this, 0, getConfig().getInt("ghost-block-fixer.period"));
     }
     private void pollGhostBlocks() {
         ArrayList<org.bukkit.Location> ghostStack = new ArrayList<>();
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < getConfig().getInt("ghost-block-fixer.rate"); i++) {
             org.bukkit.Location l = ghostBlockQueue.poll();
             if (l == null) break;
             ghostStack.add(l);

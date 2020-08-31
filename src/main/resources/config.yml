@@ -1,1 +1,11 @@
-ghost-block-rate: 2
+# Welcome to the StayUp configuration! This configuration
+# allows you to adjust the functionality of StayUp.
+#
+# Here are the descriptions for each key:
+#  - ghost-block-fixer is settings for the ghost block fixer.
+#    - period is the delay in ticks between ghost blocks being polled from our queue.
+#    - rate is how many ghost blocks are polled per period.
+#    If period is 20 and rate is 10, 10 ghost blocks will be fixed every second.
+ghost-block-fixer:
+  period: 2
+  rate: 10

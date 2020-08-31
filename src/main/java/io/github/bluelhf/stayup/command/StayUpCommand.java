@@ -17,6 +17,7 @@ public class StayUpCommand implements CommandExecutor {
             long taskReloadTime = Timing.time(() -> StayUp.get().loadGhostBlockTask());
             sender.sendMessage("  §7Reloaded ghost block task in " + taskReloadTime + "ms.");
             sender.sendMessage("§aReloaded in " + (configReloadTime + taskReloadTime) + "ms.");
+            return true;
         }
         sender.sendMessage("§7Usage: §a/stayup <reload>");
         return true;
