@@ -11,7 +11,7 @@
 
     <groupId>io.github.bluelhf.stayup</groupId>
     <artifactId>StayUp</artifactId>
-    <version>1</version>
+    <version>1.0-BETA</version>
 
     <packaging>jar</packaging>
     <name>${project.artifactId}</name>
