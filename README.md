@@ -6,9 +6,9 @@ StayUp is a WorldGuard addon that adds a simple flag to control block gravity.
 StayUp is designed for Spigot 1.16.2 and WorldGuard 7.0.3, but it'll work with later versions provided there are no API changes :)
 
 **Dependencies:** 
-- Spigot 1.16.2+
-- WorldGuard 7.0.3+
-- Java 11.0.7+
+- [Spigot or Paper 1.16.2+](https://papermc.io/downloads)
+- [WorldGuard 7.0.4-beta1+](https://dev.bukkit.org/projects/worldguard/files/2989129)
+- [Java 11.0.7+](https://adoptopenjdk.net/?variant=openjdk11&jvmVariant=hotspot)
 - Love and Affection :blue_heart:
 
 ### Installation
