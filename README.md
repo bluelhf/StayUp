@@ -8,6 +8,7 @@ StayUp is designed for Spigot 1.16.2 and WorldGuard 7.0.3, but it'll work with l
 **Dependencies:** 
 - Spigot 1.16.2+
 - WorldGuard 7.0.3+
+- Java 11.0.7+
 - Love and Affection :blue_heart:
 
 ### Installation
