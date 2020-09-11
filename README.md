@@ -10,6 +10,9 @@ StayUp is designed for Spigot 1.16.2 and WorldGuard 7.0.3, but it'll work with l
 - WorldGuard 7.0.3+
 - Love and Affection :blue_heart:
 
+### Permissions
+- stayup.admin - Allows usage of /stayup reload
+
 ### Installation
 
 The installation of StayUp is an incredibly simple process. Follow these simple steps to install StayUp on your 1.16.2+ spigot server!
